@@ -117,7 +117,7 @@ use Hekmatinasser\Verta\Verta;
             <td class="text-center"><?=$loc->lng?></td>
             <td>
                 <button class="statusToggle <?= $loc->verified ? 'active' : '' ?>" data-loc='<?=$loc->id?>'>
-                <?= $loc->verified ? 'فعال' : 'غیر فعال' ?>
+                تایید
                 </button> 
                 <button class="preview" data-loc='<?=$loc->id?>'>👁️‍🗨️</button> 
             </td>
