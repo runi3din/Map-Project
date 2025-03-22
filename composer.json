@@ -1,0 +1,19 @@
+{
+    "name": "asus/map-project",
+    "description": "a map project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Asus\\MapProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "runi3din",
+            "email": "rani3din@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
